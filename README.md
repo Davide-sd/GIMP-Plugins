@@ -14,3 +14,11 @@ Then open GIMP and load the image you are interested to modify. You can find the
 You can create any number of luminosity masks: just select the layer of interest, and apply the plugin. A small dialog windows will open, where you can choose the number of luminosity masks to create! By default, the plugin will create 3 darks channels, 3 lights channels and 3 midtones channels.
 
 The luminosity masks will appear in the `Channels Dialog`.
+
+## Layers Blend Mode
+
+This plugin applies a specific blend mode and/or opacity to multiple layers. Specifically, you can choose between all the layers or only the visible ones.
+
+To install it, copy the `layers_blend_mode.py` file into the `~/.config/GIMP/2.10/gimp-plugins` folder, change its permission to allow executing as a program (using the command `chmod +x luminosity_mask.py`).
+
+Then open GIMP and load the image you are interested to modify. You can find the plugin in the menu `Layer/Layers Blend Mode...`.  
